@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "League Spartan", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -19,6 +19,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+}
+
+.blue {
+    color: #008DFF;
 }
 
 .logo {
