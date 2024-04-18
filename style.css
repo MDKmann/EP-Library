@@ -13,14 +13,52 @@ nav {
 
 .nav__container {
     width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
-.nav__links {
-    list-style: none;
+.logo {
+    width: 160px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
 }
 
 .nav__link {
+    margin-left: 16px;
     text-decoration: none;
+    color: #008DFF;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--primary {
+    border: 2px solid;
+    border-radius: 4px;
+    color: #008DFF;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+}
+
+#landing {
+    background-color: rgba(0, 141, 255, 0.1);
+}
+
+header {
+    height: calc(100vh - 80px);
 }
