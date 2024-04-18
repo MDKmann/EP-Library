@@ -5,3 +5,22 @@
     box-sizing: border-box;
     font-family: "League Spartan", sans-serif;
 }
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+.nav__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+}
