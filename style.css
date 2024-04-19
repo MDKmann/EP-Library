@@ -143,11 +143,10 @@ HIGHLIGHTS
 */
 
 .highlight__wrapper {
-    display: flex;
+   display: flex;
 }
 
 .highlight {
-    display: flex;
     padding: 0 24px;
     width: calc(100% / 3);
 }
@@ -156,9 +155,7 @@ HIGHLIGHTS
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
-
-
 
