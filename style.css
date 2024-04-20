@@ -23,6 +23,10 @@ img {
     padding: 24px;
 }
 
+.book__img {
+    padding: 0;
+}
+
 p {
     line-height: 1.5;
 }
@@ -97,6 +101,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2vw;
 }
 
 h1 {
@@ -133,6 +138,7 @@ button:active {
 .header__img--wrapper {
     padding: 24px;
     z-index: 2;
+    margin-bottom: 16vw;
 }
 
 .container {
@@ -222,13 +228,33 @@ FEATURES
 
 */
 
-.book__img {
-    height: 50%;
-    width: 30%;
+#features {
+    height: 1000px;
+    padding-top: 8vw;
+    background-color:  #e8edf5;
 }
 
-#features {
-    background-color:  #e8edf5;
-    width: 100%;
-    height: 100vh;
+.books {
+    display: flex;
+}
+
+.book {
+    width: 25%;
+    padding: 24px;
+}
+
+.book__img {
+    max-height: 380px;
+    transition: all 300ms ease;
+}
+
+.book__img--wrapper {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+}
+
+.book:hover .book__img {
+    transform: scale(1.03);
 }
